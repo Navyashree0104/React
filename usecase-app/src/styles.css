@@ -1,0 +1,22 @@
+/* Apply theme to the entire page */
+.theme-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Default Light Theme */
+  .theme-container.light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Theme */
+  .theme-container.dark {
+    background-color: black;
+    color: white;
+  }
+  
